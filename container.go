@@ -299,6 +299,7 @@ type HostMount struct {
 	Source        string         `json:"Source,omitempty" yaml:"Source,omitempty" toml:"Source,omitempty"`
 	Type          string         `json:"Type,omitempty" yaml:"Type,omitempty" toml:"Type,omitempty"`
 	ReadOnly      bool           `json:"ReadOnly,omitempty" yaml:"ReadOnly,omitempty" toml:"ReadOnly,omitempty"`
+	Consistency   string         `json:"Consistency,omitempty" yaml:"Consistency,omitempty" toml:"Consistency,omitempty"`
 	BindOptions   *BindOptions   `json:"BindOptions,omitempty" yaml:"BindOptions,omitempty" toml:"BindOptions,omitempty"`
 	VolumeOptions *VolumeOptions `json:"VolumeOptions,omitempty" yaml:"VolumeOptions,omitempty" toml:"VolumeOptions,omitempty"`
 	TempfsOptions *TempfsOptions `json:"TmpfsOptions,omitempty" yaml:"TmpfsOptions,omitempty" toml:"TmpfsOptions,omitempty"`
